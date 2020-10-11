@@ -48,12 +48,11 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:17.1.0';
     implementation(name: 'heresdk-explore-android-4.5.0.0.3094', ext: 'aar')
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation('org.tensorflow:tensorflow-lite:0.0.0-nightly') { changing = true }
+    implementation('org.tensorflow:tensorflow-lite:+')
     implementation ('org.tensorflow:tensorflow-lite-metadata:0.0.0-nightly') { changing = true }
     androidTestImplementation 'com.android.support.test:rules:1.0.2'
     androidTestImplementation 'com.google.truth:truth:1.0.1'
