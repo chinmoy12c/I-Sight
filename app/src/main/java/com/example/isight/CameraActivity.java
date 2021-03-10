@@ -15,7 +15,7 @@
  */
 
 package com.example.isight;
-
+// this is a trial 2
 import android.Manifest;
 import android.app.Activity;
 import android.app.Fragment;
